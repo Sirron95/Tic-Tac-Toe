@@ -102,7 +102,21 @@ nav ul{
     background-color: #911d91;
     transition: width 1s ease-in-out;
 }
-
+footer {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  bottom: 30px;
+  color: white;
+  font-weight: bolder;
+  left: 0;
+  right: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(37, 9, 37);;
+  display: inline-block;
+  padding: 1px 30px;
+  display: flex;
+}
 @media screen and (max-width: 950px)
 {
     .gameContainer{
